@@ -1,15 +1,13 @@
-{
+﻿{
+  "`$schema": "https://openapi.vercel.sh/vercel.json",
   "services": {
     "client": {
       "root": "client",
-      "framework": "vite",
-      "buildCommand": "npm run build",
-      "outputDirectory": "dist"
+      "framework": "vite"
     },
     "server": {
       "root": "server",
-      "framework": "express",
-      "runtime": "nodejs20.x"
+      "framework": "express"
     }
   },
   "rewrites": [
